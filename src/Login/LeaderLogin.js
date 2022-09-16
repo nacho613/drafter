@@ -26,7 +26,7 @@ const LeaderLogin = () => {
         leader_pw: pwRef.current.value,
       })
       .then((res) => {
-        if (res.data[0].cnt === undefined) {
+        if (res.data[0].cnt === 1) {
           window.sessionStorage.setItem("name", nameRef.current.value);
           navigate("/");
         } else {
