@@ -45,7 +45,7 @@ const LeaderJoin = () => {
     }
 
     axios
-      .post("http://localhost:8005/leaderjoin", {
+      .post("https://teamnacho.herokuapp.com/leaderjoin", {
         leader_name: nameRef.current.value, 
         leader_pw: pwRef.current.value, 
         leader_hope: hopeRef.current.value, 

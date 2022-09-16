@@ -39,7 +39,7 @@ const MemberJoin = () => {
     }
 
     axios
-      .post("http://localhost:8005/memberjoin", {
+      .post("https://teamnacho.herokuapp.com/memberjoin", {
         member_name: nameRef.current.value, 
         member_pw: pwRef.current.value, 
         member_hope: hopeRef.current.value, 

@@ -21,7 +21,7 @@ const MemberLogin = () => {
     }
 
     axios
-      .post("http://localhost:8005/memberlogin", {
+      .post("https://teamnacho.herokuapp.com/memberlogin", {
         member_name: nameRef.current.value,
         member_pw: pwRef.current.value,
       })
