@@ -22,7 +22,7 @@ const Main = () => {
                         <source src={background} type="video/mp4" />
                     </video>
                     <div className="maintext">
-                        <a href="http://localhost:3000/leaderlogin">로그인</a>
+                        <a href="https://teamnacho.herokuapp.com/leaderlogin">로그인</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const Main = () => {
                         <source src={background} type="video/mp4" />
                     </video>
                     <div className="maintext">
-                        <a href="http://localhost:3000/auction">경매</a>
+                        <a href="https://teamnacho.herokuapp.com/auction">경매</a>
                         <br/>
                         <br/>
                         <input type="button" onClick={handleLogout} value="로그아웃"/>
