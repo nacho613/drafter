@@ -33,7 +33,7 @@ const Auction = () => {
 
     const leaderGetList = () => {
         axios
-        .post("https://teamnacho.herokuapp.com/auction", {
+        .post("http://localhost:8008/auction", {
             leader_class: AAA,
         })
         .then((res) => {
